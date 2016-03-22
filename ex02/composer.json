@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4" : {
+      "Itb\\": "src/"
+    }
+  },
+  "scripts": {
+      "phpunit":"php phpunit.phar tests --log-tap ./tests/log.txt",
+      "phpunit-coverage":"php phpunit.phar tests --coverage-html ./tests/coverage"
+  }
+}
